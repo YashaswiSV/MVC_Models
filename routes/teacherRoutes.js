@@ -15,6 +15,9 @@ route.get("/department" , (req, res)=>{
 route.get("/" , (req, res)=>{
     res.send("<h1>This is teacher homepage</h1>")
 })
+route.get("/info" , (req, res)=>{
+    res.send("<h1>This is teacher info homepage</h1>")
+})
 
 
 
