@@ -10,3 +10,7 @@ route.get("/stusubject" , stuController.stuSubject)
 
 
 module.exports=route;
+
+
+
+

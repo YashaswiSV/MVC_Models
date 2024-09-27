@@ -1,3 +1,6 @@
+
+const stuModel = require("../models/studentModel")
+
 const stuInfo=(req, res)=>{
     res.send("This is student info")
 }
